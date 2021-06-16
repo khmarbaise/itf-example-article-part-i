@@ -19,13 +19,12 @@ package com.soebes.itf.maven.plugin.failure;
  * under the License.
  */
 
+import static com.soebes.itf.extension.assertj.MavenITAssertions.assertThat;
+
 import com.soebes.itf.jupiter.extension.MavenJupiterExtension;
 import com.soebes.itf.jupiter.extension.MavenTest;
 import com.soebes.itf.jupiter.maven.MavenExecutionResult;
 import org.junit.jupiter.api.DisplayName;
-
-import static com.soebes.itf.extension.assertj.MavenITAssertions.assertThat;
-import static org.assertj.core.api.Assertions.atIndex;
 
 @MavenJupiterExtension
 class FailureIT {
